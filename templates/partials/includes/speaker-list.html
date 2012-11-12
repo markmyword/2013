@@ -1,0 +1,12 @@
+{% if page.children %}
+  <ul class="speakers">
+    {% for child in page.children %}
+      <li class="clearfix">
+          <a href="{{ child.url }}">
+              <img src="{{ child.thumb.url }}" class="speaker-thumb" alt="{{ child.title }}" width="175" height="175">
+              <span class="name" href="{{ child.url }}">{{ child.title }}</span>
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

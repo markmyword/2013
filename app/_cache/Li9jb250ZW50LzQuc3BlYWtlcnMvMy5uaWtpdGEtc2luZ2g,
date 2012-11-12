@@ -1,0 +1,174 @@
+
+<!doctype html>
+
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><html class="no-js" lang="en"><![endif]-->
+
+<head>
+
+	<!-- activate Google Chrome Frame if Installed -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Nikita Singh &ndash; Mark My Word Conference</title>
+
+	<!-- seo meta stuff -->
+	<meta name="description" content="<p>Mark My Word is India's First Content &amp; Design Conference.</p>
+
+<p>It is scheduled to be held in the first week of February.</p>
+">
+	<meta name="author" content="">
+
+	<!-- mobile meta -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- favicons & icons -->
+	<!-- For iPhone 4 -->
+	<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="lib/images/h/apple-touch-icon.png"> -->
+	<!-- For iPad 1-->
+	<!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="lib/images/m/apple-touch-icon.png"> -->
+	<!-- For the new iPad -->
+	<!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="lib/images/h/apple-touch-icon-144x144-precomposed.png"> -->
+	<!-- For iPhone 3G, iPod Touch and Android -->
+	<!-- <link rel="apple-touch-icon-precomposed" href="lib/images/l/apple-touch-icon-precomposed.png"> -->
+	<!-- For Nokia -->
+	<!-- <link rel="shortcut icon" href="lib/images/l/apple-touch-icon.png"> -->
+	<!-- For everything else -->
+	<link rel="shortcut icon" href="http://localhost/markmyword/main/public/library/images/favicon.ico">
+                
+        <link rel="alternate" type="application/atom+xml" href="../../feed/">
+
+        <!-- default stylesheet -->
+        <link rel="stylesheet" href="http://localhost/markmyword/main/public/library/css/grid.css">
+        <link rel="stylesheet" href="http://localhost/markmyword/main/public/library/css/custom.css">
+        <link rel="stylesheet" href="http://localhost/markmyword/main/public/library/fonts/league-gothic/stylesheet.css">
+
+	<!-- custom modernizr minified -->
+	<script src="http://localhost/markmyword/main/public/library/js/libs/modernizr.custom.min.js"></script>
+		
+</head>
+	
+<body class="home">
+
+        <header role="banner" class="full_width clearfix">
+
+                <div id="inner-header" class="wrap">
+
+                        <div class="col span_2_of_4">
+                                <a class="logo-container" href="../../home" rel="nofollow">
+                                    <!-- <div class="logo mmw-abs"></div>
+                                    <div class="logo mmw-full"></div> -->
+                                    <img src="http://localhost/markmyword/main/public/library/images/mmw-abs.png" class="logo mmw-abs" />
+                                    <img src="http://localhost/markmyword/main/public/library/images/mmw-full.png" class="logo mmw-full" />
+                                </a>
+                        </div>
+
+                        <nav role="navigation" class="col span_2_of_4">
+                            <ul id="navigation" class="nav">
+      <li><a href="../../home/">Home</a></li>
+      <li><a href="../../speakers/">Speakers</a></li>
+      <li><a href="../../sponsors/">Our Sponsors</a></li>
+      <li><a href="../../press-kit/">Press Kit</a></li>
+  
+</ul>
+                        </nav>
+
+                </div> <!-- end #inner-header -->
+
+        </header> <!-- end header -->
+
+        <div id="content" class="wrap clearfix">
+
+
+                        <div id="inner-content" class="col span_3_of_4">
+                                <h2>Nikita Singh</h2>
+                                <a href="http://facebook.com/nikitasingh.page" class="speaker-thumb">
+                                    <img src="../../content/4.speakers/3.nikita-singh/thumb.jpg" alt="Nikita Singh" width="175" height="175">
+                                </a>
+                                <div class="speaker speaker-meta section">
+                                    <div class="col span_2_of_3 speaker-bio">
+                                        <p>Nikita Singh is the author of two books- Love @ Facebook and Accidentally in Love. Both of which were written in under two weeks, and went on to become super-hits. Through her literary endeavours, Nikita has managed to reconcile the oxymoron in ‘intelligent chick-lit’.</p>
+
+<p>In Nikita’s Utopia, she would be the author of fantasy fiction, and let her imagination run wild with vampires and witches.</p>
+
+<p>A self-confessed foodie on her Twitter profile, her tweets also reveal that she is a die-hard romantic.</p>
+
+                                    </div>
+                                    <div class="col span_1_of_3 speaker-info">
+                                        <dl>
+                                                                                    <dt>Twitter</dt>
+                                            <dd><a href="http://twitter.com/singh_nikita">@singh_nikita</a></dd>
+                                        
+                                                                                    <dt>Website</dt>
+                                            <dd><a href="http://facebook.com/nikitasingh.page">facebook.com/nikitasingh.page</a></dd>
+                                        
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <div class="page-nav">
+                                                                                        <p><span>Next speaker: </span> <a href="../../speakers/akshar-pathak/">Akshar Pathak</a></p>
+
+                                              <p><span>Previous speaker: </span> <a href="../../speakers/qaushiq-mukherjee/">Qaushiq Mukherjee</a></p>
+
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        
+
+            <div class="col span_1_of_4 sidebar sponsor-list">
+
+        <aside class="clearfix">
+            <h3 class="sponsor_title">Platinum</h3>
+            <a href="../../sponsors">We are sure you will definitely love this package</a>
+        </aside>
+        <aside class="clearfix">
+            <h3 class="sponsor_title">Gold</h3>
+            <a href="../../sponsors">This package will really please you</a>
+        </aside>
+        <aside class="clearfix">
+            <h3 class="sponsor_title">Silver</h3>
+            <a href="../../sponsors">We are glad to offer you this package</a>
+        </aside>
+        <aside class="clearfix">
+            <h3 class="sponsor_title">Bronze</h3>
+            <a href="../../sponsors">The last package on the list for you</a>
+        </aside>
+
+</div>
+
+        </div> <!-- end #content -->
+
+        <footer role="contentinfo" class="full_width clearfix">
+
+                <div id="inner-footer" class="wrap">
+
+                    <p id="footer">&copy; Copyright Mark My Word Conference 2012 | <a class="twitter" href="http://twitter.com/markmywordconf">@markmywordconf</a> | <a class="atom-rss" href="../../feed/">RSS</a> | <a href="../../colophon">Colophon</a></p>
+                    <p><em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>
+
+                </div> <!-- end #inner-footer -->
+
+        </footer> <!-- end footer -->
+        
+	<!-- Grab Google CDN's jQuery, without a fallback (if Google fails, the world will implode) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+        <!-- scripts are now optimized via Modernizr.load -->	
+        <script src="http://localhost/markmyword/main/public/library/js/scripts.js"></script>
+
+        <!-- insert analytics script here -->
+
+        <!-- below prompts IE6 users to install Google Chrome Frame -->
+        <!--[if lt IE 7 ]>
+        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+
+</body>
+
+</html>
+<!-- Stacey(2.3.0): 24f615c7d3897dfece06836d203b3a5a -->

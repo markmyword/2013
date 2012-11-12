@@ -1,0 +1,219 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><html class="no-js" lang="en"><![endif]-->
+
+<head>
+
+	<!-- activate Google Chrome Frame if Installed -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Our Sponsors &ndash; Mark My Word Conference</title>
+
+	<!-- seo meta stuff -->
+	<meta name="description" content="<p>Mark My Word is India's First Content &amp; Design Conference.</p>
+
+<p>It is scheduled to be held in the first week of February.</p>
+">
+	<meta name="author" content="">
+
+	<!-- mobile meta -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- favicons & icons -->
+	<!-- For iPhone 4 -->
+	<!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="lib/images/h/apple-touch-icon.png"> -->
+	<!-- For iPad 1-->
+	<!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="lib/images/m/apple-touch-icon.png"> -->
+	<!-- For the new iPad -->
+	<!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="lib/images/h/apple-touch-icon-144x144-precomposed.png"> -->
+	<!-- For iPhone 3G, iPod Touch and Android -->
+	<!-- <link rel="apple-touch-icon-precomposed" href="lib/images/l/apple-touch-icon-precomposed.png"> -->
+	<!-- For Nokia -->
+	<!-- <link rel="shortcut icon" href="lib/images/l/apple-touch-icon.png"> -->
+	<!-- For everything else -->
+	<link rel="shortcut icon" href="http://localhost/markmyword/main/public/library/images/favicon.ico">
+                
+        <link rel="alternate" type="application/atom+xml" href="../feed/">
+
+        <!-- default stylesheet -->
+        <link rel="stylesheet" href="http://localhost/markmyword/main/public/library/css/grid.css">
+        <link rel="stylesheet" href="http://localhost/markmyword/main/public/library/css/custom.css">
+        <link rel="stylesheet" href="http://localhost/markmyword/main/public/library/fonts/league-gothic/stylesheet.css">
+
+	<!-- custom modernizr minified -->
+	<script src="http://localhost/markmyword/main/public/library/js/libs/modernizr.custom.min.js"></script>
+		
+</head>
+	
+<body class="home">
+    
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=304695146304199";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <header role="banner" class="full_width clearfix">
+
+                <div id="inner-header" class="wrap">
+
+                        <div class="col span_2_of_4">
+                                <a class="logo-container" href="../home" rel="nofollow">
+                                    <!-- <div class="logo mmw-abs"></div>
+                                    <div class="logo mmw-full"></div> -->
+                                    <img src="http://localhost/markmyword/main/public/library/images/mmw-abs.png" class="logo mmw-abs" />
+                                    <img src="http://localhost/markmyword/main/public/library/images/mmw-full.png" class="logo mmw-full" />
+                                </a>
+                        </div>
+
+                        <nav role="navigation" class="col span_2_of_4">
+                            <ul id="navigation" class="nav">
+      <li><a href="../home/">Home</a></li>
+      <li><a href="../speakers/">Speakers</a></li>
+      <li><a href="../sponsors/">Our Sponsors</a></li>
+      <li><a href="../press-kit/">Press Kit</a></li>
+  
+</ul>
+                        </nav>
+
+                </div> <!-- end #inner-header -->
+
+        </header> <!-- end header -->
+
+        <div id="content" class="wrap clearfix">
+
+
+                        <div id="inner-content" class="col span_3_of_4">
+
+                                <h2 class="page_title">Our Sponsors</h2>
+                                
+                                <h3>Platinum : USD $1,000*</h3>
+
+<ol>
+<li>Large-sized display advertisement on the event location on either side of the speakers&rsquo; dias.</li>
+<li>Your logo on the official Mark My Word T-shirts, registration passes and all printed material for the conference.</li>
+<li>Guest post by you (may include video, images) on our official website.</li>
+<li>Opportunity to do giveaways during the event. If you are somehow unable to attend, our volunteers can do the same on your behalf.</li>
+<li>Opportunity to sell your product/themes/apps at the same/discounted rates during the 2 days event.</li>
+<li>Announcements about you during the event.</li>
+<li>A special &lsquo;Thank You&rsquo; mention during keynote from Center Stage.</li>
+<li>If you send us some goodies, we will be happy to have it in our registration pack.</li>
+<li>Persistent logo and link on official Mark My Word website.</li>
+<li>Tweets announcing your support to Mark My Word.</li>
+<li>Facebook posts from our page regarding your sponsorship support.</li>
+<li>&lsquo;Thank You&rsquo; mention and link in all pre and post event related attendees email.</li>
+</ol>
+
+<hr>
+
+<h3>Gold : USD $750*</h3>
+
+<ol>
+<li>Display advertisement at the event location.</li>
+<li>Logo on all print material except tee-shirts.</li>
+<li>Guest post by you (may include video, images) on our official website.</li>
+<li>Opportunity to do giveaways during event. This could be handled by our volunteers too if you are unable to join us during event.</li>
+<li>Announcements about you during the event.</li>
+<li>A special Thank You during keynote from center stage.</li>
+<li>If you send us some goodies, we will be happy to have it in our registration pack.</li>
+<li>Persistent logo and link on official Mark My Word website.</li>
+<li>Tweet announcing your support to Mark My Word.</li>
+<li>Facebook post from our page regarding your sponsorship support.</li>
+<li>&lsquo;Thank You&rsquo; mention and link in all pre and post event related attendees email.</li>
+</ol>
+
+<hr>
+
+<h3>Silver : USD $500*</h3>
+
+<ol>
+<li>Display advertisement at the event location.</li>
+<li>Logo on all print material except t-shirts and registration passes.</li>
+<li>Guest post by you (may include video, images) on our official website.</li>
+<li>If you send us some goodies, we will be happy to have it in our registration pack.</li>
+<li>Persistent logo and link on official Mark My Word website.</li>
+<li>Tweets announcing your support to Mark My Word.</li>
+<li>Facebook posts from our page regarding your sponsorship support.</li>
+<li>&lsquo;Thank You&rsquo; mention and link in all pre and post event related attendees email.</li>
+</ol>
+
+<hr>
+
+<h3>Bronze : USD $250*</h3>
+
+<ol>
+<li>Persistent logo and link on official Mark My Word website.</li>
+<li>Guest post by you (may include video, images) on our Mark My Word official website.</li>
+<li>If you send us some goodies, we will be happy to have it in our registration pack.</li>
+<li>Tweet announcing your support to Mark My Word.</li>
+<li>&lsquo;Thank You&rsquo; mention and link in all post event related attendees email.</li>
+</ol>
+
+<hr>
+
+<h3>Micro Sponsorship : USD $100*</h3>
+
+<ul>
+<li>The Micro sponsorship amount could range from anywhere between $100 and $250.</li>
+<li><p>We will do our best to ensure your visibility during the event and in our campaigns.</p></li>
+<li><p>Note: Only individuals and tiny companies are allowed to purchase micro-sponsorships. We hope that larger organizations will find our other sponsorship levels acceptable.</p></li>
+</ul>
+
+<p>For further details, feel free to contact us at <span class="highlight">contact[at]markmyword[dot]in</span> or call +91-9637130502</p>
+
+<p>(*) All sponsorship levels marked above are excluding taxes.</p>
+
+<p>We sincerely hope to get warm support from all of you.</p>
+
+                                
+
+                        </div>
+                        
+
+            <div class="col span_1_of_4 sidebar">
+
+        <div class="fb-like-box" data-href="http://www.facebook.com/markmywordconf" data-width="292" data-show-faces="true" data-stream="true" data-header="true"></div>
+
+</div>
+            
+            
+
+        </div> <!-- end #content -->
+
+        <footer role="contentinfo" class="full_width clearfix">
+
+                <div id="inner-footer" class="wrap">
+
+                    <p id="footer">&copy; Copyright Mark My Word Conference 2012 | <a class="twitter" href="http://twitter.com/markmywordconf">@markmywordconf</a> | <a class="atom-rss" href="../feed/">RSS</a> | <a href="../colophon">Colophon</a></p>
+                    <p><em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>
+
+                </div> <!-- end #inner-footer -->
+
+        </footer> <!-- end footer -->
+        
+	<!-- Grab Google CDN's jQuery, without a fallback (if Google fails, the world will implode) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+        <!-- scripts are now optimized via Modernizr.load -->	
+        <script src="http://localhost/markmyword/main/public/library/js/scripts.js"></script>
+
+        <!-- insert analytics script here -->
+
+        <!-- below prompts IE6 users to install Google Chrome Frame -->
+        <!--[if lt IE 7 ]>
+        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+
+</body>
+
+</html>                        
+<!-- Stacey(2.3.0): 83897d1b62797cbe6c5b698597345eb0 -->

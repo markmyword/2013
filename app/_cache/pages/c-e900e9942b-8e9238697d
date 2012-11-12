@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+  <title>Mark My Word Conference's Portfolio Feed</title>
+  <subtitle></subtitle>
+  <link href="http://markmyword.in/feed/" hreflang="en" rel="self" type="application/atom+xml"/>
+  <link href="http://markmyword.in/" hreflang="en" rel="alternate" type="text/html"/>
+  
+  <updated>2012-11-07T21:54:21+11:00</updated>
+  <generator uri="http://staceyapp.com/" version="3.0.0">Stacey</generator>
+
+  <author>
+    <name>Mark My Word Conference</name>
+    <uri>http://markmyword.in</uri>
+  </author>
+
+  <id>tag:markmyword.in,2012:/feed/</id>
+  <rights>©2012 Mark My Word Conference</rights>
+    <entry>
+   <title>Speakers</title>
+   <id>tag:markmyword.in,2012:/speakers/</id>
+   <updated>2012-10-02T06:09:54+10:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>Following is the list of our speakers here at <strong>Mark My Word</strong>.</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>14_yr_old_Etard</title>
+   <id>tag:markmyword.in,2012:/speakers/14_yr_old_etard/</id>
+   <updated>2012-10-02T06:09:06+10:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/14_yr_old_etard/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Sorabh Pant</title>
+   <id>tag:markmyword.in,2012:/speakers/sorabh-pant/</id>
+   <updated>2012-10-02T06:09:12+10:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/sorabh-pant/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Akshar Pathak</title>
+   <id>tag:markmyword.in,2012:/speakers/akshar-pathak/</id>
+   <updated>2012-10-02T06:57:10+10:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/akshar-pathak/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Nikita Singh</title>
+   <id>tag:markmyword.in,2012:/speakers/nikita-singh/</id>
+   <updated>2012-10-02T06:57:15+10:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/nikita-singh/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Qaushiq Mukherjee</title>
+   <id>tag:markmyword.in,2012:/speakers/qaushiq-mukherjee/</id>
+   <updated>2012-10-02T06:59:04+10:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/qaushiq-mukherjee/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Ashok Banker</title>
+   <id>tag:markmyword.in,2012:/speakers/ashok-banker/</id>
+   <updated>2012-10-02T07:24:50+10:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/ashok-banker/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Ritu Beri</title>
+   <id>tag:markmyword.in,2012:/speakers/ritu-beri/</id>
+   <updated>2012-10-17T07:38:18+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/ritu-beri/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Ajay Koli</title>
+   <id>tag:markmyword.in,2012:/speakers/ajay-koli/</id>
+   <updated>2012-10-17T07:46:21+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/ajay-koli/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>King Sidharth</title>
+   <id>tag:markmyword.in,2012:/speakers/king-sidharth/</id>
+   <updated>2012-11-06T17:05:06+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/speakers/king-sidharth/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Home</title>
+   <id>tag:markmyword.in,2012:/home/</id>
+   <updated>2012-10-04T17:14:52+10:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/home/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <p>What is <strong>Mark My Word</strong>?</p>
+
+<p>Mark My Word is the world's first <strong>Content and Design Conference</strong>.</p>
+
+<p>Who will be speaking?</p>
+
+<p>The speaker line up for MMW would include stalwarts from the various fields of content and design- namely in the form of <strong>artists, lyricists, twitter celebs, screenplay writers, journalists, novelists, web designers, architects, fashion designers</strong> and <strong>ad gurus</strong>.</p>
+
+<p>Why <strong>Content</strong> and <strong>Design</strong>?</p>
+
+<p>The two institutions of Content and Design are, indirectly, the most discussed concepts amongst working professionals today. They govern most of our lives, whether it's in the form of Christmas cards or feature films or e-commerce websites. Sadly, however, these two concepts and the relationship between them have never been spoken about under one banner, and that's exactly what we wish to accomplish.</p>
+
+<p>Why should <strong>I / my organization</strong> be a part of this?</p>
+
+<p>As mentioned earlier, this event is the <strong>first of its kind</strong>. With MMW, we hope to set the platform for further discussions in the fields of Content and Design. Our focus, as is evident, is on touching everyone while sticking to the topic. So whether you're a grocery store owner, a giant multinational or just the average movie buff- this conference holds relevance in your life.</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Our Sponsors</title>
+   <id>tag:markmyword.in,2012:/sponsors/</id>
+   <updated>2012-11-06T17:11:02+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/sponsors/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+                    <h3>Platinum : INR 1,00,000*</h3>
+
+<ol>
+<li>Large display advertisement in event program.</li>
+<li>A logo of yours on our tee-shirts, passes and all our printed material.</li>
+<li>Guest post by you (may include video, images) on our official website.</li>
+<li>Opportunity to do giveaways during event. If you are unable to attend, we will help you out with our volunteers.</li>
+<li>Opportunity to sell your product/themes/apps at same/discount rates during 2 days event.</li>
+<li>Announcements about you during the event.</li>
+<li>A special &#38;lsquo;Thank You&#38;rsquo; mention during keynote from Center Stage.</li>
+<li>If you send us some goodies, we will be happy to have it in our registration kit.</li>
+<li>Persistent logo and link on the official website.</li>
+<li>Tweets announcing your support to Mark My Word.</li>
+<li>Facebook posts from our page regarding your sponsorship support.</li>
+<li>&#38;lsquo;Thank You&#38;rsquo; mention and link in all pre and post event related attendees email.</li>
+</ol>
+
+<hr />
+
+<h3>Gold : INR 60,000*</h3>
+
+<ol>
+<li>Display advertisement at the event location.</li>
+<li>Logo on all print material except tee-shirts.</li>
+<li>Guest post by you (may include video, images) on our official website.</li>
+<li>Opportunity to do giveaways during event. This could be handled by our volunteers too if you are unable to join us during event.</li>
+<li>Announcements about you during the event.</li>
+<li>A special &#38;lsquo;Thank You&#38;rsquo; during keynote from center stage.</li>
+<li>If you send us some goodies, we will be happy to have it in our registration pack.</li>
+<li>Persistent logo and link on the official website.</li>
+<li>Tweet announcing your support to Mark My Word.</li>
+<li>Facebook post from our page regarding your sponsorship support.</li>
+<li>&#38;lsquo;Thank You&#38;rsquo; mention and link in all pre and post event related attendees email.</li>
+</ol>
+
+<hr />
+
+<h3>Silver : INR 40,000*</h3>
+
+<ol>
+<li>Display advertisement at the event location.</li>
+<li>Logo on all print material except t-shirts and registration passes.</li>
+<li>Guest post by you (may include video, images) on our official website.</li>
+<li>If you send us some goodies, we will be happy to have it in our registration pack.</li>
+<li>Persistent logo and link on the official website.</li>
+<li>Tweets announcing your support to Mark My Word.</li>
+<li>Facebook posts from our page regarding your sponsorship support.</li>
+<li>&#38;lsquo;Thank You&#38;rsquo; mention and link in all pre and post event related attendees email.</li>
+</ol>
+
+<hr />
+
+<h3>Bronze : INR 25,000*</h3>
+
+<ol>
+<li>Persistent logo and link on official Mark My Word website.</li>
+<li>Guest post by you (may include video, images) on our Mark My Word official website.</li>
+<li>If you send us some goodies, we will be happy to have it in our registration pack.</li>
+<li>Tweet announcing your support to Mark My Word.</li>
+<li>&#38;lsquo;Thank You&#38;rsquo; mention and link in all post event related attendees email.</li>
+</ol>
+
+<hr />
+
+<h3>Micro Sponsorship : INR 10,000*</h3>
+
+<ul>
+<li>Micro sponsorship can be any amount above INR 5,000 upto INR 10,000 whatever maximum you can donate to support us.</li>
+<li>We will do whatever best we can offer you.</li>
+</ul>
+
+<p>Note: Only individuals and tiny companies are allowed to purchase micro-sponsorships. We hope that larger organizations will find our other sponsorship levels acceptable.</p>
+
+<p>For further details contact <strong>Aniket</strong> at <strong>aniket@markmyword.in</strong> or call him on  <strong>+91-9637130502</strong>.<br />
+Hoping to get a warm participation from you.<br />
+(*) All sponsorship levels marked above are excluding taxes.</p>
+
+      </div>
+   </content>
+</entry>    <entry>
+   <title>Press Kit</title>
+   <id>tag:markmyword.in,2012:/press-kit/</id>
+   <updated>2012-11-07T21:54:21+11:00</updated>
+   <link rel="alternate" type="text/html" href="http://markmyword.in/press-kit/" />
+   <content type="xhtml" xml:lang="en">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+            <img src="../content/4.press-kit/Mark My Word Logo - Abstract.png" alt="Mark My Word Logo   Abstract." />
+  <img src="../content/4.press-kit/Mark My Word Logo - Full.png" alt="Mark My Word Logo   Full." />
+          <h3>Press Kit</h3>
+
+<p>Mark My Word is India’s first Content &#38;amp; Design Conference. It is not just the beauty of content and design itself that we celebrate, but the people behind them.  From oil paintings to film posters, hard-core journalism to chick, poetry to product design- we invite Content and Design in any form.</p>
+
+<p>If you like what we do, please spread the word on Facebook, Twitter, you blog or any other channel. We appreciate your efforts.</p>
+
+<hr />
+
+<h3>Background</h3>
+
+<p>Mark My Word will be held in Goa on 2nd February, 2013.</p>
+
+<p>It will be a one-day event with stimulating discussions and intense debates by our Content and Design evangelists, as well as filler musical performances and art exhibits.</p>
+
+<p>Do watch this space for further details on the schedule and speaker profiles.</p>
+
+<hr />
+
+<h3>For Members of the Press</h3>
+
+<p>Media persons are welcome to cover Mark My Word. For interviews with the speakers or the Mark My Word organizers, contact us at <span class="highlight">contact[at]markmyword[dot]in</span>. We will get back to you as soon as possible.</p>
+
+<p>We would love to partner with you for Media and Publicity. If your newspaper, website, blog, magazine or news channel would like to become the official Media Partner of Mark My Word, please do not hesitate to contact us at <span class="highlight">contact[at]markmyword[dot]in</span>.</p>
+
+<hr />
+
+<h3>Online Hideouts</h3>
+
+<ul>
+<li><strong>Website:</strong> <a href="http://markmyword.in">markmyword.in</a></li>
+<li><strong>Lanyrd:</strong> <a href="http://lanyrd.com/2013/markmyword/">lanyrd.com/2013/markmyword/</a></li>
+<li><strong>Facebook:</strong> <a href="http://facebook.com/markmywordconf">facebook.com/markmywordconf</a></li>
+<li><strong>Twitter:</strong> <a href="http://twitter.com/markmywordconf">twitter.com/markmywordconf</a></li>
+<li><strong>Google+:</strong> <a href="http://gplus.to/markmyword">gplus.to/markmyword</a></li>
+</ul>
+
+<hr />
+
+      </div>
+   </content>
+</entry>  
+</feed>

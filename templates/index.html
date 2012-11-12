@@ -1,0 +1,12 @@
+{% extends "master.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block page_content %}
+<div id="inner-content" class="col span_3_of_4">
+
+        <h2 class="page_title">{{ page.title }}</h2>
+        {{ page.content }}
+
+</div>
+{% endblock %}

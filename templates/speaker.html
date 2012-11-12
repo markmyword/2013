@@ -1,0 +1,31 @@
+{% extends "master.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block page_content %}
+<div id="inner-content" class="col span_3_of_4">
+
+        <h2 class="page_title">{{ page.title }}</h2>
+        <a href="http://{{ page.website }}" class="speaker-thumb">
+            <img src="{{ page.thumb.url }}" alt="{{ page.title }}" width="175" height="175">
+        </a>
+        <div class="speaker speaker-meta section">
+            <div class="col span_2_of_3 speaker-bio">
+                {{ page.bio }}
+            </div>
+            <div class="col span_1_of_3 speaker-info">
+                <dl>
+                {% if page.twitter %}
+                    <dt>Twitter</dt>
+                    <dd><a href="http://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a></dd>
+                {% endif %}
+                {% if page.website %}
+                    <dt>Website</dt>
+                    <dd><a href="http://{{ page.website }}">{{ page.website }}</a></dd>
+                {% endif %}
+                </dl>
+            </div>
+        </div>
+
+</div>
+{% endblock %}

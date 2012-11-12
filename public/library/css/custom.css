@@ -1,0 +1,475 @@
+/* GRID STYLES */
+@import "normalize.css";
+
+@import url('http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic');
+/*================================================================
+
+STYLESHEET INFORMATION
+The stylesheet contains all the style information for Mark My Word
+
+Author      : Aniket Pant
+Author URI  : http://aniketpant.com
+
+License     : WTFPL
+License URI : http://sam.zoy.org/wtfpl/
+
+This program is free software. It comes without any warranty, to
+the extent permitted by applicable law. You can redistribute it
+and/or modify it under the terms of the Do What The Fuck You Want
+To Public License, Version 2, as published by Sam Hocevar. See
+http://sam.zoy.org/wtfpl/COPYING for more details.
+
+================================================================*/
+/*================================================================
+
+Stylesheet Information
+Contains all mixins
+
+Author      : Aniket Pant
+Author URI  : http://aniketpant.com
+
+================================================================*/
+/* GRID STYLES */
+body {
+  max-width: 100%;
+}
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Clearfix */
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+/* COMMON AND REUSABLE STYLES */
+/* floats */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/* text alignment */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+* {
+  box-sizing: border-box;
+}
+.full_width {
+  width: 100%;
+}
+/* TYPOGRAPHY */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-weight: 500;
+}
+h1 a,
+.h1 a,
+h2 a,
+.h2 a,
+h3 a,
+.h3 a,
+h4 a,
+.h4 a,
+h5 a,
+.h5 a {
+  text-decoration: none;
+}
+h1,
+.h1 {
+  font-size: 2.5em;
+  line-height: 1.333em;
+}
+h2,
+.h2 {
+  font-size: 1.75em;
+  line-height: 1.4em;
+  margin-bottom: 0.375em;
+}
+h3,
+.h3 {
+  font-weight: 700;
+  font-size: 1.125em;
+}
+h4,
+.h4 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+h5,
+.h5 {
+  font-size: 0.846em;
+  line-height: 2.09em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/*********************
+BORDER RADIUS
+*********************/
+/* 
+NOTE: For older browser support (and some mobile), 
+don't use the shorthand to define *different* corners. 
+
+USAGE: .rounded(4px); 
+
+*/
+/* 
+Instead of having a seperate mixin for the different
+borders, we're using the mixin from 320 & Up to make
+things easier to use.
+
+USAGE: .border-radius(4px,4px,0,0);
+
+*/
+/*********************
+TRANISTION
+*********************/
+/* .transition(all,2s); */
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can 
+really slow down your CSS. Don't overdue it.
+*********************/
+/* .css-gradient(#dfdfdf,#f8f8f8); */
+/*********************
+BOX SIZING
+*********************/
+/* .boxSizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So 
+probably best not to use it. I mean, were you going to anyway? */
+/*********************
+BOX SHADOW
+*********************/
+/* .boxShadow(0 0 4px #444); */
+/* .boxShadow(0 0 4px #444); */
+/*********************
+TRANSFORM
+*********************/
+/* .rotate(30deg); */
+/* COMMON */
+body {
+  background: #ffffff;
+}
+ul,
+ol {
+  margin-left: 0;
+}
+li {
+  line-height: 1.5em;
+}
+/* SECTIONS */
+header[role="banner"] {
+  border-bottom: 1px solid #cccccc;
+  background: #eee;
+}
+footer[role="contentinfo"] {
+  margin-top: 25px;
+  padding: 1em 0;
+  border-top: 1px solid #cccccc;
+  background: #eee;
+}
+.sidebar {
+  margin-top: 25px;
+}
+/* Selection Styles */
+::selection {
+  color: #ffffff;
+  background: #006b9d;
+}
+/* Link Styles */
+a:active {
+  background: rgba(0, 0, 0, 0.05);
+}
+a,
+a:visited {
+  padding: 0 2px;
+  color: #008ed0;
+  border-bottom: 2px solid #d0d0d0;
+  text-decoration: none;
+  -webkit-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+  -ms-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+a:hover,
+a:visited:hover,
+a:focus,
+a:visited:focus {
+  color: #da2400;
+  border-bottom: 2px solid #da2400;
+}
+/* Typography */
+body {
+  font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 1em;
+  line-height: 1.5;
+  text-shadow: 0 0 -1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(255, 255, 255, 0.25);
+}
+/* Page Title */
+.page_title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'LeagueGothicRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* LOGO */
+.logo-container {
+  display: block;
+  width: 100%;
+  margin: 25px 0 0;
+  border-bottom: none;
+}
+.logo-container:hover {
+  border-bottom: none;
+}
+.logo-container:hover .mmw-abs {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.logo {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.mmw-abs {
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.mmw-full {
+  width: 237px;
+  height: 100px;
+  border-left: 3px solid #008ed0;
+}
+/* NAVIGATION */
+.nav {
+  margin: 60px 10px 50px;
+}
+.nav li {
+  display: inline-block;
+  margin: 5px 0;
+}
+.nav li a {
+  display: block;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-bottom: none;
+  font-size: 1.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #da2400;
+  font-family: 'LeagueGothicRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 2rem;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+.nav li a:hover {
+  color: #ffffff;
+  border-bottom: none;
+  background: #262626;
+  text-shadow: 1px 1px 0px #da2400;
+}
+/* SPEAKERS */
+.speakers {
+  list-style: none;
+}
+.speakers li {
+  float: left;
+  margin: 10px;
+}
+.speakers li a {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 175px;
+  height: 175px;
+  border-bottom: none;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 2px 0 #999999;
+  -moz-box-shadow: 0 0 2px 0 #999999;
+  -ms-box-shadow: 0 0 2px 0 #999999;
+  -o-box-shadow: 0 0 2px 0 #999999;
+  box-shadow: 0 0 2px 0 #999999;
+  overflow: hidden;
+}
+.speakers li a img {
+  margin: 0;
+  padding: 0;
+}
+.speakers li a:hover span {
+  color: #da2400;
+}
+.speakers li a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  background: rgba(0, 0, 0, 0.85);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.25);
+  -webkit-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+  -ms-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.speaker-thumb {
+  border-bottom: none;
+}
+.speaker-thumb img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 3px #e6e6e6;
+  -moz-box-shadow: 0 0 0 3px #e6e6e6;
+  -ms-box-shadow: 0 0 0 3px #e6e6e6;
+  -o-box-shadow: 0 0 0 3px #e6e6e6;
+  box-shadow: 0 0 0 3px #e6e6e6;
+  -webkit-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+  -ms-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.speaker-thumb:hover {
+  border-bottom: none;
+}
+.speaker-thumb:hover img {
+  -webkit-box-shadow: 0 0 0 3px #84d8ff;
+  -moz-box-shadow: 0 0 0 3px #84d8ff;
+  -ms-box-shadow: 0 0 0 3px #84d8ff;
+  -o-box-shadow: 0 0 0 3px #84d8ff;
+  box-shadow: 0 0 0 3px #84d8ff;
+}
+.speaker-info dt {
+  margin: 2em 0 0.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.speaker-info dt:first-child {
+  margin: 1em 0 0.5em;
+}
+.speaker-info dd {
+  margin: 0;
+}
+.page-nav span {
+  font-size: 0.85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* SPONSORS */
+.sponsor-list {
+    background: #eee;
+    box-shadow: 0 0 2px #999;
+}
+.sponsor-list .title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.sponsor-list a.sponsor,
+.sponsor-list a.sponsor:visited {
+  display: block;
+  padding: 1em 0;
+  border-bottom: 5px solid #008ed0;
+  text-align: center;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 2px 0 #999999;
+  -moz-box-shadow: 0 0 2px 0 #999999;
+  -ms-box-shadow: 0 0 2px 0 #999999;
+  -o-box-shadow: 0 0 2px 0 #999999;
+  box-shadow: 0 0 2px 0 #999999;
+}
+.sponsor-list a.sponsor:hover {
+  border-bottom: 5px solid #da2400;
+}
+.sponsor-list p {
+    text-align: center;
+}
+/* IMAGE LIST */
+.image-list .image {
+  max-height: 100px;
+}
+.image-list a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: none;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 2px 0 #999999;
+  -moz-box-shadow: 0 0 2px 0 #999999;
+  -ms-box-shadow: 0 0 2px 0 #999999;
+  -o-box-shadow: 0 0 2px 0 #999999;
+  box-shadow: 0 0 2px 0 #999999;
+}
+.image-list a:hover {
+  border-bottom: none;
+  box-shadow: 0 0 2px #da2400;
+}
+/* MISC */
+.highlight {
+  padding: 0 0 2px;
+  color: #008ed0;
+  border-bottom: 2px solid #d0d0d0;
+  -webkit-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+  -ms-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.highlight:hover {
+  color: #da2400;
+  border-bottom: 2px solid #da2400;
+}
+hr {
+  border: 1px solid #f2f2f2;
+}
