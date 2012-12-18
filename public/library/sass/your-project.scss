@@ -51,8 +51,6 @@ footer[role="contentinfo"] {
     margin: 0 auto; 
 }
 
-.sidebar { margin-top: 25px; }
-
 /* Selection Styles */
 ::selection {
     color: $white;
@@ -154,9 +152,7 @@ body {
 /* SPEAKERS */
 
 .speakers {
-    list-style: none;
     li {
-        margin: 15px;
         a {
             position: relative; display: block;
             margin: 0; padding: 0;
@@ -203,12 +199,8 @@ body {
 
 .speaker-info {
     dt {
-        margin: 2em 0 0.5em;
         font-weight: bold;
         text-transform: uppercase;
-        &:first-child {
-            margin: 1em 0 0.5em;
-        }
     }
     dd {
         margin: 0;
@@ -235,7 +227,7 @@ body {
         text-align: center; text-transform: uppercase;
         font-weight: 700;
     }
-    a.sponsor, a.sponsor:visited {
+    .sponsor {
         display: block;
         padding: 1em 0;
         border-bottom: 5px solid $blue;
@@ -243,7 +235,7 @@ body {
         background: $white;
 		@include vendor(box-shadow, 0 0 2px 0 #999);
     }
-    a.sponsor {
+    .sponsor {
         &:hover {
             border-bottom: 5px solid $orange;
         }

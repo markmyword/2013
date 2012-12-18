@@ -1,7 +1,7 @@
 {% if page.children %}
-  <ul class="speakers full-bleed">
+  <ul class="speakers multi-list three-cols">
     {% for child in page.children %}
-      <li class="fl">
+      <li>
           <div class="media">
             <a href="{{ child.url }}">
                 <img class="media__img" src="{{ child.thumb.url }}" class="speaker-thumb" alt="{{ child.title }}" width="175" height="175">
