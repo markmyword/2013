@@ -1,31 +1,20 @@
-# Stacey 3.0.0
+## Mark My Word 2013
 
-## Overview
-Stacey takes content from `.yml` files, image files and implied directory structure and generates a website.
-It is a no-database, dynamic website generator.
+### What is **Mark My Word**?
 
-If you look in the `/content` and `/templates` folders, you should get the general idea of how it all works.
+Mark My Word is the world's first **Content and Design Conference** being held in association with [Quark 2013](http://bits-quark.org).
 
-## Installation
 
-Copy to server, `chmod 777 app/_cache`.
+### Who will be speaking?
 
-If you want clean urls, `mv htaccess .htaccess`
+The speaker line up for MMW would include stalwarts from the various fields of content and design- namely in the form of **artists, lyricists, twitter celebs, screenplay writers, journalists, novelists, web designers, architects, fashion designers** and **ad gurus**.
 
-## Templates
 
-Stacey uses the [Twig templating language](http://twig.sensiolabs.org/).
+### Why **Content** and **Design**?
 
-There are an additional two sets of templates which can be found at:
-<http://github.com/kolber/stacey-template2> &
-<http://github.com/kolber/stacey-template3>
+The two institutions of Content and Design are, indirectly, the most discussed concepts amongst working professionals today. They govern most of our lives, whether it's in the form of Christmas cards or feature films or e-commerce websites. Sadly, however, these two concepts and the relationship between them have never been spoken about under one banner, and that's exactly what we wish to accomplish.
 
-## Read More
 
-See <http://staceyapp.com> for more detailed usage information.
+### Why should **I / my organization** be a part of this?
 
-## Copyright/License
-
-Copyright (c) 2009 Anthony Kolber. See `LICENSE` for details.
-Except [PHP Markdown Extra](http://michelf.com/projects/php-markdown/extra/) which is (c) Michel Fortin (see `/app/parsers/markdown-parser.inc.php` for details) and
-[jsmin.php](https://github.com/rgrove/jsmin-php/) which is (c) Ryan Grove (see `app/parsers/json-minifier.inc.php` for details).
+As mentioned earlier, this event is the **first of its kind**. With MMW, we hope to set the platform for further discussions in the fields of Content and Design. Our focus, as is evident, is on touching everyone while sticking to the topic. So whether you're a grocery store owner, a giant multinational or just the average movie buff- this conference holds relevance in your life.
