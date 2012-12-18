@@ -1,100 +1,106 @@
-/*================================================================
+@charset "UTF-8";
+/*------------------------------------*\
+    YOUR-PROJECT.CSS
+\*------------------------------------*/
+/**
+ * 
+ * sass --watch your-project.scss:your-project.min.css --style compressed
+ * 
+ * Here we set up some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards.
+ */
 
-STYLESHEET INFORMATION
-The stylesheet contains all the style information for Mark My Word
 
-Author      : Aniket Pant
-Author URI  : http://aniketpant.com
+/**
+ * Setup
+ */
+@import "vars";
+@import "inuit.css/inuit";
 
-License     : WTFPL
-License URI : http://sam.zoy.org/wtfpl/
 
-This program is free software. It comes without any warranty, to
-the extent permitted by applicable law. You can redistribute it
-and/or modify it under the terms of the Do What The Fuck You Want
-To Public License, Version 2, as published by Sam Hocevar. See
-http://sam.zoy.org/wtfpl/COPYING for more details.
+/**
+ * She’s all yours, cap’n... Begin importing your stuff here.
+ */
 
-================================================================*/
-
-@import "normalize.css";
-@import "mixins.less";
-
-/* COMMON */
-
-body { background: @white; }
-
-ul,
-ol { margin-left: 0; }
-
-li { line-height: 1.5em; }
-
-/* SECTIONS */
+body {
+    background: #fafafa;
+}
 
 header[role="banner"] {
-    border-bottom: 1px solid @gray;
+    border-bottom: 1px solid $gray;
     background: #eee;
+    margin-bottom: 1rem;
+}
+
+#content {
+    margin-bottom: 1rem;
 }
 
 footer[role="contentinfo"] {
-    margin-top: 25px;
     padding: 1em 0;
-    border-top: 1px solid @gray;
+    border-top: 1px solid $gray;
     background: #eee;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.wrapper {
+    width: 60rem;
+    margin: 0 auto; 
 }
 
 .sidebar { margin-top: 25px; }
 
 /* Selection Styles */
 ::selection {
-    color: @white;
-    background: darken(@blue, 10%);
+    color: $white;
+    background: darken($blue, 10%);
 }
 
 /* Link Styles */
-a:active { background: rgba(0, 0, 0, 0.05); }
 
-a,
-a:visited {
+a {
     padding: 0 2px;
-    color: @blue;
+    color: $blue;
     border-bottom: 2px solid #d0d0d0;
     text-decoration: none;
-    .transition(all, 250ms, linear);
+    @include vendor(transition, all 250ms linear);
     &:hover, &:focus {
-        color: @orange;
-        border-bottom: 2px solid @orange;
+        color: $orange;
+        border-bottom: 2px solid $orange;
+        text-decoration: none;
+    }
+    &:active {
+        background: rgba(0, 0, 0, 0.05);
     }
 }
 
 /* Typography */
 body {
-    font-family: @sans;
-    text-rendering: optimizeLegibility;
-    font-size: 1em;
-    line-height: 1.5;
+    font-family: $sans;
     text-shadow: 0 0 -1px rgba(0, 0, 0, 0.25), 0 0 1px rgba(255, 255, 255, 0.25);
+    color: #2d2d2d;
 }
 
 /* Page Title */
 .page_title {
-    font-size: 2.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: @headings;
+    font-family: $headings;
 }
 
 /* LOGO */
 
 .logo-container {
     display: block;
-    width: 100%;
-    margin: 25px 0 0;
+    margin: 2rem 0 2rem;
     border-bottom: none;
     &:hover {
         border-bottom: none;
         .mmw-abs {
-            .rotate(360deg);
+    		@include vendor(rotate, 360deg);
         }
     }
 }
@@ -106,40 +112,40 @@ body {
 
 .mmw-abs {
     width: 100px; height: 100px;
-    .transition(all, 1s, ease-in-out);
-    .rotate(0deg);
+    @include vendor(transition, all 1s ease-in-out);
+    @include vendor(rotate, 0deg);
 }
 
 .mmw-full {
     width: 237px; height: 100px;
-    border-left: 3px solid @blue;
+    border-left: 3px solid $blue;
 }
 
 /* NAVIGATION */
 
 .nav {
-    margin: 60px 10px 50px;
+    margin: 3.5rem 0 2rem;
     li {
         display: inline-block;
         margin: 5px 0;
         a {
             display: block;
             padding: 5px 10px;
-            color: @white;
+            color: $white;
             border-bottom: none;
             font-size: 1.75rem;
             text-decoration: none; text-transform: uppercase;
             letter-spacing: 1px;
-            background: @orange;
-            font-family: @headings;
+            background: $orange;
+            font-family: $headings;
             line-height: 2rem;
             text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
-            .transition(all, 250ms, ease-in-out);
+    		@include vendor(transition, all 250ms ease-in-out);
                 &:hover {
-                    color: @white;
+                    color: $white;
                     border-bottom: none;
                     background: #262626;
-                    text-shadow: 1px 1px 0px @orange;
+                    text-shadow: 1px 1px 0px $orange;
                 }
         }
     }
@@ -150,35 +156,31 @@ body {
 .speakers {
     list-style: none;
     li {
-        float: left;
-        margin: 10px;
+        margin: 15px;
         a {
             position: relative; display: block;
             margin: 0; padding: 0;
             width: 175px; height: 175px;
             border-bottom: none;
-            background: @white;
-            .boxShadow(0, 0, 2px, 0, #999);
+            background: $white;
+    		@include vendor(box-shadow, 0 0 2px 0 #999);
             overflow: hidden;
-            img {
-                margin: 0; padding: 0;
-            }
             &:hover span {
-                color: @orange;
+                color: $orange;
             }
             span {
                 position: absolute;
                 bottom: 0; left: 0;
                 width: 100%;
                 padding: 5px 0;
-                color: @white;
+                color: $white;
                 font-size: 1em;
                 font-weight: 700;
                 text-align: center;
                 letter-spacing: 1px;
                 background: rgba(0, 0, 0, 0.85);
                 text-shadow: 0 0 1px rgba(255, 255, 255, 0.25);
-                .transition(all, 250ms, linear);
+                @include vendor(transition, all 250ms linear);
             }
         }
     }
@@ -187,15 +189,15 @@ body {
 .speaker-thumb {
     border-bottom: none;
     img {
-        .rounded(50%);
-        .boxShadow(0, 0, 0, 3px, @light-gray);
-        .transition(all, 250ms, linear);
+        @include vendor(border-radius, 50%);
+		@include vendor(box-shadow, 0 0 0 3px $light-gray);
+        @include vendor(transition, all 250ms linear);
     }
     &:hover {
         border-bottom: none;
     }
     &:hover img {
-        .boxShadow(0, 0, 0, 3px, lighten(@blue, 35%));
+		@include vendor(box-shadow, 0 0 0 3px lighten($blue, 35%));
     }
 }
 
@@ -236,14 +238,14 @@ body {
     a.sponsor, a.sponsor:visited {
         display: block;
         padding: 1em 0;
-        border-bottom: 5px solid @blue;
+        border-bottom: 5px solid $blue;
         text-align: center;
-        background: @white;
-        .boxShadow(0, 0, 2px, 0, #999);
+        background: $white;
+		@include vendor(box-shadow, 0 0 2px 0 #999);
     }
     a.sponsor {
         &:hover {
-            border-bottom: 5px solid @orange;
+            border-bottom: 5px solid $orange;
         }
     }
     p {
@@ -261,11 +263,11 @@ body {
         display: inline-block;
         margin: 10px; padding: 10px;
         border-bottom: none;
-        background: @white;
-        .boxShadow(0, 0, 2px, 0, #999);
+        background: $white;
+		@include vendor(box-shadow, 0 0 2px 0 #999);
         &:hover {
             border-bottom: none;
-            box-shadow: 0 0 2px @orange;
+            box-shadow: 0 0 2px $orange;
         }
     }
 }
@@ -274,15 +276,15 @@ body {
 
 .highlight {
     padding: 0 0 2px;
-    color: @blue;
+    color: $blue;
     border-bottom: 2px solid #d0d0d0;
-    .transition(all, 250ms, linear);
+    @include vendor(transition, all 250ms linear);
     &:hover {
-        color: @orange;
-        border-bottom: 2px solid @orange;
+        color: $orange;
+        border-bottom: 2px solid $orange;
     }
 }
 
 hr {
-    border: 1px solid lighten(@gray, 15%);
+    border: 1px solid lighten($gray, 5%);
 }
