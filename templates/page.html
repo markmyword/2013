@@ -5,14 +5,18 @@
 {% block page_content %}
 <div id="inner-content" class="g three-quarters">
 
-		{% if page.title != "Home" %}
-        <h1 class="page_title">{{ page.title }}</h1>
+        {% if page.title != "Home" %}
+                <h1 class="page_title">{{ page.title }}</h1>
         {% endif %}
-        {{ page.content }}
-        
-        {% include "partials/includes/speaker-list.html" %}
 
-	{% include "partials/assets/pdfs.html" %}
+        {{ page.content }}
+
+        {% if page.title == "Speakers" %}
+                {% include "partials/includes/speaker-list.html" %}
+        {% elseif page.title == "Our Sponsors" %}
+                {% include "partials/includes/sponsor-list.html" %}
+                {% include "partials/assets/pdfs.html" %}
+        {% endif %}
 
 </div>
 

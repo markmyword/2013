@@ -1,0 +1,14 @@
+{% if page.children %}
+  <ul class="multi-list two-cols">
+    {% for child in page.children %}
+      <li>
+          <div class="media">
+            <a href="{{ child.url }}" title="{{ child.title }}">
+                <img class="media__img" src="{{ child.thumb.url }}" alt="{{ child.title }}" width="175" height="175" alt="{{ child.title }}" />
+                <p class="media__body">{{ child.category }}</p>
+            </a>
+          </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
