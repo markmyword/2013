@@ -3,17 +3,17 @@
 {% block title %}{{ page.title }}{% endblock %}
 
 {% block page_content %}
-<div id="inner-content" class="g three-quarters">
+<div id="inner-content" class="g three-quarters portable-one-whole">
 
-    <div class="full-bleed">
+    <div class="gw full-bleed">
 
         <h1 class="page_title">{{ page.title }}</h1>
-        <div class="media">
+        <div class="g one-whole media">
             <a href="http://{{ page.website }}">
-                <img class="media__img" src="{{ page.thumb.url }}" alt="{{ page.title }}" width="250" height="250">
+                <img class="media__img sponsor-logo" src="{{ page.thumb.url }}" alt="{{ page.title }}" />
             </a>
         </div>
-        <div class="g two-thirds">
+        <div class="g two-thirds portable-one-whole islet">
             <dl class="split">
                 <dt class="split__title">Category</dt>
                 <dd>{{ page.category }}</dd>

@@ -43,15 +43,15 @@
                 <div id="inner-header" class="gw wrapper">
 
                         <div class="g one-half portable-one-whole">
-                                <a class="logo-container" href="{{ page.root_path }}" rel="nofollow">
-                                    <img src="{{ page.root_path }}/public/library/images/mmw-abs.png" class="logo mmw-abs" />
-                                    <img src="{{ page.root_path }}/public/library/images/mmw-full.png" class="logo mmw-full" />
+                                <a class="logo-container media" href="{{ page.root_path }}" rel="nofollow">
+                                    <img src="{{ page.root_path }}/public/library/images/mmw-abs.png" class="mmw-abs media__img" />
+                                    <img src="{{ page.root_path }}/public/library/images/mmw-full.png" class="mmw-full media__img" />
                                 </a>
                         </div>
 
                         <nav role="navigation" class="g one-half portable-one-whole">
                             {% block nav %}
-                            <ul id="navigation" class="nav">
+                            <ul id="navigation" class="nav nav--banner portable-nav--stacked">
                             {% for child in page.root %}
                               <li><a href="{{ child.url }}">{{ child.title }}</a></li>
                             {% endfor %}
@@ -71,11 +71,10 @@
             
             {% if page.title != "Our Sponsors" %}
             {% block sponsor_list %}
-            <div class="g one-whole sponsor-list">
-
+            <div class="g one-whole islet well text-center">
                     <h2 class="title">Sponsor Us</h2>
-                    <p>We bet that you would love to sponsor us.<br/>Take a look at the <a href="{{ page.root_path }}sponsors">packages</a>.</p>
-
+                    <p>We bet that you would love to <a href="{{ page.root_path }}sponsors">sponsor us</a>.</p>
+                    <p>Take your time and go through <a href="{{ root_path }}content/3.sponsors/Mark%20My%20Word%20-%20Marketing%20Brochure.pdf">our brochure</a>.</p>
             </div>
             {% endblock %}
             {% endif %}

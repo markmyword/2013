@@ -1,11 +1,10 @@
 {% if page.children %}
-  <ul class="multi-list two-cols">
+  <ul class="full-bleed multi-list two-cols portable-one-col">
     {% for child in page.children %}
       <li>
-          <div class="media">
-            <a href="{{ child.url }}" title="{{ child.title }}">
-                <img class="media__img" src="{{ child.thumb.url }}" alt="{{ child.title }}" width="175" height="175" alt="{{ child.title }}" />
-                <p class="media__body">{{ child.category }}</p>
+          <div class="media islet">
+            <a class="sponsor" href="{{ child.url }}" title="{{ child.category }} - {{ child.title }}">
+                <img class="media__img" src="{{ child.thumb.url }}" alt="{{ child.title }}" alt="{{ child.title }}" />
             </a>
           </div>
       </li>
