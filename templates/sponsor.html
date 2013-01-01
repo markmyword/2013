@@ -8,19 +8,24 @@
     <div class="gw full-bleed">
 
         <h1 class="page_title">{{ page.title }}</h1>
-        <div class="g one-whole media">
+        <div class="g one-whole islet">
             <a href="http://{{ page.website }}">
-                <img class="media__img sponsor-logo" src="{{ page.thumb.url }}" alt="{{ page.title }}" />
+                <img class="img--small img--center sponsor-logo" src="{{ page.thumb.url }}" alt="{{ page.title }}" />
             </a>
         </div>
-        <div class="g two-thirds portable-one-whole islet">
-            <dl class="split">
-                <dt class="split__title">Category</dt>
+        <div class="g one-third portable-one-whole">
+            <dl>
+                <dt>Category</dt>
                 <dd>{{ page.category }}</dd>
-                <dt class="split__title">Website</dt>
+                <dt>Website</dt>
                 <dd><a href="http://{{ page.website }}">{{ page.website }}</a></dd>
             </dl>
         </div>
+        {% if page.notes %}
+        <div class="g two-thirds portable-one-whole">
+            <p>{{ page.notes }}</p>
+        </div>
+        {% endif %}
 
     </div>
 
