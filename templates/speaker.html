@@ -3,17 +3,22 @@
 {% block title %}{{ page.title }}{% endblock %}
 
 {% block page_content %}
-<div id="inner-content" class="col span_3_of_4">
+<div id="inner-content" class="g three-quarters">
 
-        <h2 class="page_title">{{ page.title }}</h2>
-        <a href="http://{{ page.website }}" class="speaker-thumb">
-            <img src="{{ page.thumb.url }}" alt="{{ page.title }}" width="175" height="175">
-        </a>
+    <div class="full-bleed">
+
+        <h1 class="page_title">{{ page.title }}</h1>
+        <div class="media">
+            <a href="http://{{ page.website }}" class="speaker-thumb">
+                <img class="media__img" src="{{ page.thumb.url }}" alt="{{ page.title }}" width="175" height="175">
+            </a>
+        </div>
+
         <div class="speaker speaker-meta section">
-            <div class="col span_2_of_3 speaker-bio">
+            <div class="g two-thirds speaker-bio full-bleed">
                 {{ page.bio }}
             </div>
-            <div class="col span_1_of_3 speaker-info">
+            <div class="g one-third speaker-info">
                 <dl>
                 {% if page.twitter %}
                     <dt>Twitter</dt>
@@ -26,6 +31,8 @@
                 </dl>
             </div>
         </div>
+
+    </div>
 
 </div>
 {% endblock %}
