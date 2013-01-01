@@ -1,11 +1,13 @@
 {% if page.children %}
-  <ul class="speakers">
+  <ul class="speakers multi-list three-cols portable-two-cols">
     {% for child in page.children %}
-      <li class="clearfix">
-          <a href="{{ child.url }}">
-              <img src="{{ child.thumb.url }}" class="speaker-thumb" alt="{{ child.title }}" width="175" height="175">
-              <span class="name" href="{{ child.url }}">{{ child.title }}</span>
-          </a>
+      <li>
+          <div class="media">
+            <a href="{{ child.url }}">
+                <img class="media__img speaker-thumb" src="{{ child.thumb.url }}" alt="{{ child.title }}" width="175" height="175">
+                <span class="name" href="{{ child.url }}">{{ child.title }}</span>
+            </a>
+          </div>
       </li>
     {% endfor %}
   </ul>
