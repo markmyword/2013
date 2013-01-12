@@ -40,26 +40,33 @@
 
         <header role="banner" class="full-width">
 
-                <div id="inner-header" class="gw wrapper">
+            <div id="inner-header" class="gw wrapper">
 
-                        <div class="g one-half portable-one-whole">
-                                <a class="logo-container media" href="{{ page.root_path }}" rel="nofollow">
-                                    <img src="{{ page.root_path }}/public/library/images/mmw-abs.png" class="mmw-abs media__img" />
-                                    <img src="{{ page.root_path }}/public/library/images/mmw-full.png" class="mmw-full media__img" />
-                                </a>
-                        </div>
+                <div class="g one-third portable-one-whole">
+                    <a class="logo-container media" href="{{ page.root_path }}" rel="nofollow">
+                        <img src="{{ page.root_path }}/public/library/images/mmw-abs.png" class="mmw-abs media__img" />
+                        <img src="{{ page.root_path }}/public/library/images/mmw-full.png" class="mmw-full media__img" />
+                    </a>
+                </div>
 
-                        <nav role="navigation" class="g one-half portable-one-whole">
-                            {% block nav %}
-                            <ul id="navigation" class="nav nav--banner portable-nav--stacked">
-                            {% for child in page.root %}
-                              <li><a href="{{ child.url }}">{{ child.title }}</a></li>
-                            {% endfor %}
-                            </ul>
-                            {% endblock %}
-                        </nav>
+                <div class="g one-third portable-one-whole">
+                    <div class="info islet text-center">
+                        <p>Date: <date>02 Feb 2013</date></p>
+                        <p>Venue: BITS Pilani, Goa</p>
+                    </div>
+                </div>
 
-                </div> <!-- end #inner-header -->
+                <nav role="navigation" class="g one-third portable-one-whole">
+                    {% block nav %}
+                    <ul id="navigation" class="nav nav--banner">
+                    {% for child in page.root %}
+                      <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    {% endblock %}
+                </nav>
+
+            </div> <!-- end #inner-header -->
 
         </header> <!-- end header -->
 
@@ -83,32 +90,34 @@
 
         <footer role="contentinfo" class="full-width">
 
-                <div id="inner-footer" class="gw wrapper">
+            <div id="inner-footer" class="gw wrapper">
 
-                    <p id="footer">&copy; Copyright {{ page.name }} {{ page.current_year }} | <a class="twitter" href="http://twitter.com/{{ page.hideout_twitter }}">@{{ page.hideout_twitter }}</a> | <a class="atom-rss" href="{{ page.root_path }}feed">RSS</a> | <a href="{{ page.root_path }}colophon">Colophon</a></p>
-                    <p><em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>
+                <p id="footer">&copy; Copyright {{ page.name }} {{ page.current_year }} | <a class="twitter" href="http://twitter.com/{{ page.hideout_twitter }}">@{{ page.hideout_twitter }}</a> | <a class="atom-rss" href="{{ page.root_path }}feed">RSS</a> | <a href="{{ page.root_path }}colophon">Colophon</a></p>
+                <p><em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>
 
-                </div> <!-- end #inner-footer -->
+            </div> <!-- end #inner-footer -->
 
         </footer> <!-- end footer -->
 
         <script type="text/javascript">
 
-					var _gaq = _gaq || [];
-					_gaq.push(['_setAccount', 'UA-32312766-1']);
-					_gaq.push(['_trackPageview']);
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-32312766-1']);
+			_gaq.push(['_trackPageview']);
 
-					(function() {
-						var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-						ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-					})();
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
 
-				</script>
+		</script>
 				
-				<!-- start Mixpanel --><script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?
-g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.identify people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
-mixpanel.init("b71059a6cc72ada9c784d8a2d3ce5ea5");</script><!-- end Mixpanel -->
+	   <!-- start Mixpanel -->
+       <script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.identify people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
+            mixpanel.init("b71059a6cc72ada9c784d8a2d3ce5ea5");
+        </script>
+        <!-- end Mixpanel -->
 
         <!-- below prompts IE6 users to install Google Chrome Frame -->
         <!--[if lt IE 7 ]>

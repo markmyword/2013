@@ -113,30 +113,28 @@ body {
     border-left: 3px solid $blue;
 }
 
+/* INFO */
+
+.info {
+    margin-top: 3.5rem;
+}
+
 /* NAVIGATION */
 
 .nav {
-    margin: 3.5rem 0 2rem;
+    margin: 4rem 0 0;
     li {
-        display: inline-block;
-        margin: 5px 0;
         a {
-            display: block;
-            padding: 5px 10px;
-            color: $white;
+            color: #262626;
             border-bottom: none;
-            font-size: 1.75rem;
+            @include font-size($base-font-size * 1.6);
             text-decoration: none; text-transform: uppercase;
             letter-spacing: 1px;
-            background: $orange;
             font-family: $headings;
-            line-height: 2rem;
             text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
     		@include vendor(transition, all 250ms ease-in-out);
                 &:hover {
-                    color: $white;
                     border-bottom: none;
-                    background: #262626;
                     text-shadow: 1px 1px 0px $orange;
                 }
         }
@@ -282,15 +280,9 @@ hr {
     .portable-one-col > li{
         width:100%;
     }
-    .portable-nav--stacked{
-        > li{
-            display:list-item;
-
-        > a{
-            display:block;
-        }
+    .nav--banner {
+        margin: 0;
     }
-}
 }
 
 @include media-query(lap) {
