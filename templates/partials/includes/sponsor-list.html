@@ -2,11 +2,11 @@
   <ul class="full-bleed multi-list two-cols portable-one-col">
     {% for child in page.children %}
       <li {% if child.package != 'none' %}class="all-cols"{% endif %}>
-          <div class="islet">
-            <a class="sponsor" href="{{ child.url }}" title="{{ child.category }} - {{ child.title }}">
-                <img class="img--short img--center" src="{{ child.thumb.url }}" alt="{{ child.title }}" alt="{{ child.title }}" />
-            </a>
-          </div>
+        <div class="islet">
+          <a class="sponsor" href="{{ child.url }}" title="{{ child.category }} - {{ child.title }}">
+            <img class="img--short img--center" src="{{ child.thumb.url }}" alt="{{ child.title }}" alt="{{ child.title }}" />
+          </a>
+        </div>
       </li>
     {% endfor %}
   </ul>
